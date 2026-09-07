@@ -1,0 +1,9 @@
+{"hora_utc": "2026-09-07T16:37:34.115+00:00", "pid": 16, "evento": "PRONTO", "trabalhador": "cozinha-2", "stream": "demo_02_concorrencia_7419919d:pedidos", "grupo": "cozinha", "recuperar_ms": 5000, "tempo_s": 0.2}
+{"hora_utc": "2026-09-07T16:37:34.285+00:00", "pid": 16, "evento": "RECEBIDO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054284-0", "pedido_id": "PED-46d64bf82d3e"}
+{"hora_utc": "2026-09-07T16:37:34.486+00:00", "pid": 16, "evento": "CONFIRMADO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054284-0", "pedido_id": "PED-46d64bf82d3e", "status": "CONCLUIDO", "total_centavos": 1100}
+{"hora_utc": "2026-09-07T16:37:34.486+00:00", "pid": 16, "evento": "RECEBIDO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054285-2", "pedido_id": "PED-8ec0c0958b7f"}
+{"hora_utc": "2026-09-07T16:37:34.686+00:00", "pid": 16, "evento": "CONFIRMADO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054285-2", "pedido_id": "PED-8ec0c0958b7f", "status": "CONCLUIDO", "total_centavos": 1100}
+{"hora_utc": "2026-09-07T16:37:34.687+00:00", "pid": 16, "evento": "RECEBIDO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054286-1", "pedido_id": "PED-842fdd7dbc9c"}
+{"hora_utc": "2026-09-07T16:37:34.887+00:00", "pid": 16, "evento": "CONFIRMADO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054286-1", "pedido_id": "PED-842fdd7dbc9c", "status": "CONCLUIDO", "total_centavos": 1700}
+{"hora_utc": "2026-09-07T16:37:34.888+00:00", "pid": 16, "evento": "RECEBIDO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054286-2", "pedido_id": "PED-3ce72c1fd22f"}
+{"hora_utc": "2026-09-07T16:37:35.088+00:00", "pid": 16, "evento": "CONFIRMADO", "trabalhador": "cozinha-2", "mensagem_id": "1788799054286-2", "pedido_id": "PED-3ce72c1fd22f", "status": "CONCLUIDO", "total_centavos": 1100}

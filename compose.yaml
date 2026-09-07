@@ -1,0 +1,15 @@
+services:
+  redis:
+    image: redis:6.2.14-alpine
+    command: ["redis-server", "--appendonly", "yes", "--appendfsync", "always"]
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - dados-redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 2s
+      retries: 15
+volumes:
+  dados-redis:

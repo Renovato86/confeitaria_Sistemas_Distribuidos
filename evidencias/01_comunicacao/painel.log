@@ -1,0 +1,1 @@
+{"hora_utc": "2026-09-07T16:37:33.873+00:00", "pid": 14, "evento": "PAINEL", "redis": "6.2.14", "stream": "demo_01_comunicacao_ed109dcb:pedidos", "grupo": "cozinha", "mensagens_no_historico": 2, "pendentes_de_confirmacao": 0, "resultados_registrados": 2, "consumidores_cadastrados": 1}

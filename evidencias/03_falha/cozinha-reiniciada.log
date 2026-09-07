@@ -1,0 +1,3 @@
+{"hora_utc": "2026-09-07T16:37:40.962+00:00", "pid": 23, "evento": "PRONTO", "trabalhador": "cozinha-reiniciada", "stream": "demo_03_falha_e071d137:pedidos", "grupo": "cozinha", "recuperar_ms": 5000, "tempo_s": 0.2}
+{"hora_utc": "2026-09-07T16:37:41.050+00:00", "pid": 23, "evento": "RECEBIDO", "trabalhador": "cozinha-reiniciada", "mensagem_id": "1788799061049-0", "pedido_id": "PED-1feca22da19a"}
+{"hora_utc": "2026-09-07T16:37:41.250+00:00", "pid": 23, "evento": "CONFIRMADO", "trabalhador": "cozinha-reiniciada", "mensagem_id": "1788799061049-0", "pedido_id": "PED-1feca22da19a", "status": "CONCLUIDO", "total_centavos": 1200}

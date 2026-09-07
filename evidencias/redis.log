@@ -1,0 +1,21 @@
+7:C 07 Sep 2026 12:37:32.975 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+7:C 07 Sep 2026 12:37:32.975 # Redis version=6.2.14, bits=64, commit=40305114, modified=0, pid=7, just started
+7:C 07 Sep 2026 12:37:32.975 # Configuration loaded
+7:M 07 Sep 2026 12:37:32.975 * monotonic clock: POSIX clock_gettime
+7:M 07 Sep 2026 12:37:32.975 * Running mode=standalone, port=38745.
+7:M 07 Sep 2026 12:37:32.976 # Server initialized
+7:M 07 Sep 2026 12:37:32.976 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+7:M 07 Sep 2026 12:37:32.976 * Ready to accept connections
+31:C 07 Sep 2026 12:37:42.310 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31:C 07 Sep 2026 12:37:42.310 # Redis version=6.2.14, bits=64, commit=40305114, modified=0, pid=31, just started
+31:C 07 Sep 2026 12:37:42.310 # Configuration loaded
+31:M 07 Sep 2026 12:37:42.310 * monotonic clock: POSIX clock_gettime
+31:M 07 Sep 2026 12:37:42.311 * Running mode=standalone, port=38745.
+31:M 07 Sep 2026 12:37:42.311 # Server initialized
+31:M 07 Sep 2026 12:37:42.311 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+31:M 07 Sep 2026 12:37:42.311 * DB loaded from append only file: 0.000 seconds
+31:M 07 Sep 2026 12:37:42.311 * Ready to accept connections
+31:signal-handler (1788799062) Received SIGTERM scheduling shutdown...
+31:M 07 Sep 2026 12:37:42.715 # User requested shutdown...
+31:M 07 Sep 2026 12:37:42.715 * Calling fsync() on the AOF file.
+31:M 07 Sep 2026 12:37:42.715 # Redis is now ready to exit, bye bye...

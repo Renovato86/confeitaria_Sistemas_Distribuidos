@@ -1,0 +1,144 @@
+{
+  "data_utc": "2026-09-07T16:37:32.972933+00:00",
+  "sistema": "Linux",
+  "python": "3.12.13",
+  "redis_py": "5.2.1",
+  "experimentos": {
+    "comunicacao": {
+      "prefixo": "demo_01_comunicacao_ed109dcb",
+      "antes": {
+        "pedidos_armazenados": 2,
+        "resultados": 0,
+        "consumidores": 0
+      },
+      "depois": {
+        "hora_utc": "2026-09-07T16:37:33.873+00:00",
+        "pid": 14,
+        "evento": "PAINEL",
+        "redis": "6.2.14",
+        "stream": "demo_01_comunicacao_ed109dcb:pedidos",
+        "grupo": "cozinha",
+        "mensagens_no_historico": 2,
+        "pendentes_de_confirmacao": 0,
+        "resultados_registrados": 2,
+        "consumidores_cadastrados": 1
+      },
+      "enviados": [
+        {
+          "hora_utc": "2026-09-07T16:37:33.108+00:00",
+          "pid": 11,
+          "evento": "ENVIADO",
+          "mensagem_id": "1788799053108-0",
+          "versao": 1,
+          "pedido_id": "PED-a25888075bdc",
+          "cliente": "Cliente 1",
+          "itens": [
+            {
+              "produto": "brigadeiro",
+              "quantidade": 1
+            },
+            {
+              "produto": "brownie",
+              "quantidade": 1
+            }
+          ],
+          "criado_em": "2026-09-07T16:37:33.107+00:00"
+        },
+        {
+          "hora_utc": "2026-09-07T16:37:33.109+00:00",
+          "pid": 11,
+          "evento": "ENVIADO",
+          "mensagem_id": "1788799053109-0",
+          "versao": 1,
+          "pedido_id": "PED-f6f183b030b2",
+          "cliente": "Cliente 2",
+          "itens": [
+            {
+              "produto": "brigadeiro",
+              "quantidade": 2
+            },
+            {
+              "produto": "brownie",
+              "quantidade": 1
+            }
+          ],
+          "criado_em": "2026-09-07T16:37:33.108+00:00"
+        }
+      ],
+      "trabalhador_pid": 12,
+      "aprovado": true
+    },
+    "concorrencia": {
+      "prefixo": "demo_02_concorrencia_7419919d",
+      "distribuicao": {
+        "cozinha-2": 4,
+        "cozinha-1": 4
+      },
+      "pids": [
+        15,
+        16
+      ],
+      "resultados": 8,
+      "aprovado": true
+    },
+    "falha": {
+      "prefixo": "demo_03_falha_e071d137",
+      "pid_interrompido": 19,
+      "pid_recuperacao": 21,
+      "pid_reiniciado": 23,
+      "recebido": {
+        "hora_utc": "2026-09-07T16:37:35.405+00:00",
+        "pid": 19,
+        "evento": "RECEBIDO",
+        "trabalhador": "cozinha-falha",
+        "mensagem_id": "1788799055404-0",
+        "pedido_id": "PED-167c6febc073"
+      },
+      "pendencias_apos_falha": [
+        {
+          "message_id": "1788799055404-0",
+          "consumer": "cozinha-falha",
+          "time_since_delivered": 17,
+          "times_delivered": 1
+        }
+      ],
+      "recuperado": {
+        "hora_utc": "2026-09-07T16:37:40.668+00:00",
+        "pid": 21,
+        "evento": "RECUPERADO",
+        "trabalhador": "cozinha-ativa",
+        "mensagem_id": "1788799055404-0",
+        "pedido_id": "PED-167c6febc073"
+      },
+      "novo_pedido_processado_antes_da_recuperacao": true,
+      "pendentes_ao_final": 0,
+      "resultados": 3,
+      "aprovado": true
+    },
+    "reentrega": {
+      "prefixo": "demo_04_reentrega_4457817a",
+      "pedido_id": "PED-d9604cbe89ee",
+      "mensagens": 2,
+      "resultados": 1,
+      "quantidade_zero_rejeitada": true,
+      "aprovado": true
+    },
+    "redis": {
+      "prefixo": "demo_05_redis_5e1a2f00",
+      "interrupcao": "SIGKILL do processo Redis",
+      "pid_reiniciado": 31,
+      "pedido_anterior_preservado": true,
+      "novo_envio_durante_parada_rejeitado": true,
+      "resultados": 1,
+      "aprovado": true
+    }
+  },
+  "redis_pid_inicial": 7,
+  "redis": "6.2.14",
+  "persistencia": {
+    "appendonly": "yes",
+    "appendfilename": "appendonly.aof",
+    "appendfsync": "always"
+  },
+  "resultado": "APROVADO"
+}

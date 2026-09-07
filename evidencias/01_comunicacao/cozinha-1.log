@@ -1,0 +1,5 @@
+{"hora_utc": "2026-09-07T16:37:33.209+00:00", "pid": 12, "evento": "PRONTO", "trabalhador": "cozinha-1", "stream": "demo_01_comunicacao_ed109dcb:pedidos", "grupo": "cozinha", "recuperar_ms": 5000, "tempo_s": 0.2}
+{"hora_utc": "2026-09-07T16:37:33.210+00:00", "pid": 12, "evento": "RECEBIDO", "trabalhador": "cozinha-1", "mensagem_id": "1788799053108-0", "pedido_id": "PED-a25888075bdc"}
+{"hora_utc": "2026-09-07T16:37:33.410+00:00", "pid": 12, "evento": "CONFIRMADO", "trabalhador": "cozinha-1", "mensagem_id": "1788799053108-0", "pedido_id": "PED-a25888075bdc", "status": "CONCLUIDO", "total_centavos": 1100}
+{"hora_utc": "2026-09-07T16:37:33.411+00:00", "pid": 12, "evento": "RECEBIDO", "trabalhador": "cozinha-1", "mensagem_id": "1788799053109-0", "pedido_id": "PED-f6f183b030b2"}
+{"hora_utc": "2026-09-07T16:37:33.611+00:00", "pid": 12, "evento": "CONFIRMADO", "trabalhador": "cozinha-1", "mensagem_id": "1788799053109-0", "pedido_id": "PED-f6f183b030b2", "status": "CONCLUIDO", "total_centavos": 1400}

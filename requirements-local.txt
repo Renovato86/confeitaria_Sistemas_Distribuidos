@@ -1,0 +1,4 @@
+# Opcional: fornece o binario real do Redis para Linux/macOS sem Docker.
+# O cliente da aplicacao continua sendo redis-py.
+-r requirements.txt
+redislite==6.2.912183

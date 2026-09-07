@@ -1,0 +1,2 @@
+{"hora_utc": "2026-09-07T16:37:35.296+00:00", "pid": 19, "evento": "PRONTO", "trabalhador": "cozinha-falha", "stream": "demo_03_falha_e071d137:pedidos", "grupo": "cozinha", "recuperar_ms": 5000, "tempo_s": 3.0}
+{"hora_utc": "2026-09-07T16:37:35.405+00:00", "pid": 19, "evento": "RECEBIDO", "trabalhador": "cozinha-falha", "mensagem_id": "1788799055404-0", "pedido_id": "PED-167c6febc073"}
