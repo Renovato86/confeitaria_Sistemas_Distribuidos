@@ -272,7 +272,7 @@ def executar(args):
             resumo["experimentos"]["redis"] = {
                 "executado": False,
                 "motivo": "Servidor externo; o roteiro nao encerra um Redis que nao iniciou."}
-            print("5/5: reinicio do Redis externo nao executado; veja roteiro manual no README.", flush=True)
+            print("5/5: reinicio do Redis externo nao executado; veja roteiro manual em docs/guia-tecnico.md.", flush=True)
         resumo["resultado"] = "APROVADO"
     except Exception as exc:
         resumo["resultado"] = "FALHOU"

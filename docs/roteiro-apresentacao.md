@@ -28,7 +28,7 @@ Abra uma segunda cozinha, com nome diferente, e envie oito pedidos. Mostre as me
 
 ## 5. Demonstre a falha
 
-Siga os comandos do README. Pare a cozinha lenta depois de `RECEBIDO` e antes de `CONFIRMADO`. Mostre a pendência e inicie outra cozinha. Compare os identificadores no evento `RECUPERADO`.
+Siga o [experimento manual de falha do trabalhador](guia-tecnico.md#experimento-manual-de-falha-do-trabalhador). Pare a cozinha lenta depois de `RECEBIDO` e antes de `CONFIRMADO`. Mostre a pendência e inicie outra cozinha. Compare os identificadores no evento `RECUPERADO`.
 
 “O Redis registrou que a mensagem estava pendente. O código da outra cozinha pediu sua recuperação após cinco segundos sem confirmação. Quando o resultado foi salvo, a aplicação confirmou a entrega.”
 
