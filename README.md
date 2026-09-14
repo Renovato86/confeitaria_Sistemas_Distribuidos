@@ -18,7 +18,7 @@ Cada cozinha é um processo independente. Ela recebe um pedido pelo Redis, confe
 
 Os eventos de envio, recebimento e conclusão aparecem no terminal. A demonstração automática também salva os registros em arquivos para análise.
 
-A documentação completa está separada neste [relatório em texto](docs/relatorio.md). Há também um [relatório editável em Word](docs/Relatorio_Confeitaria_Redis_Streams.docx) e um [guia técnico com os experimentos](docs/guia-tecnico.md).
+A documentação completa está separada neste [relatório em texto](docs/relatorio.md) e um [guia técnico com os experimentos](docs/guia-tecnico.md).
 
 ## Pré-requisitos
 
