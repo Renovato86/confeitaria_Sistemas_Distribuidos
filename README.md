@@ -38,8 +38,8 @@ Na página deste repositório, clique em **Code > Download ZIP** e extraia o arq
 Se preferir usar Git:
 
 ```bash
-git clone https://github.com/Renovato86/confeitaria_Sistemas_Distribu-dos.git
-cd confeitaria_Sistemas_Distribu-dos
+git clone https://github.com/Renovato86/confeitaria_Sistemas_Distribuidos.git
+cd confeitaria_Sistemas_Distribuidos
 ```
 
 ### 2. Instalar as dependências
